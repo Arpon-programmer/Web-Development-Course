@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning-5</title>
+    <meta name="description" content="This is about Form and Input.">
+</head>
+<body>
+    <h1>Learning Form</h1>
+    <form action="post">
+        <div>
+            <label for="username">Here we need Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe Here</label>
+        </div>
+        <div>
+            <label for="comment">Enter comment here</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="orenge">Orenge</option>
+                <option value="banana">Banana</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

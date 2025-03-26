@@ -1,0 +1,1 @@
+alert("This a demo of alert box using javascript")

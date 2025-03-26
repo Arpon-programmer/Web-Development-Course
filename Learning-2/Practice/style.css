@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(155, 193, 226);
+}
+h1{
+    color: blue;
+    text-align: center;
+    padding-top: 50px;
+}
+h2{
+    color: blue;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+p{
+    color: black;
+    text-align: left;
+    padding-left: 40px;
+}

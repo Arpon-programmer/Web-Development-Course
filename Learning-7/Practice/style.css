@@ -1,0 +1,27 @@
+#one {
+    background-color: red;
+}
+
+#two {
+    background-color: blue;
+}
+
+#p-one {
+    background-color: green;
+}
+
+#p-two {
+    background-color: cyan;
+}
+
+.o {
+    color: white;
+}
+
+.h {
+    color: cyan;
+}
+
+.k {
+    font-family: cursive;
+}
